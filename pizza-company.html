@@ -11,23 +11,34 @@
     <div class="container">
       <h1>Pizza Payday</h1>
       <form id="order-pizzas">
-        <div class="form-group">
-          <label for="toppings">Toppings</label>
-          <input type="text" class="form-control" id="toppings" placeholder="Separate, toppings, with, a, commma, and, space">
-        </div>
-        <div class="form-group">
-          <label for="size">Size</label>
-          <select id="size" class="form-control">
-            <option value="Small">Small</option>
-            <option value="Medium">Medium</option>
-            <option value="Large">Large</option>
-            <option value="Extra Large">Extra Large</option>
-            <option value="Kill Me">Kill Me</option>
-          </select>
+        <div id="all-pizzas">
+          <div class="new-pizza">
+            <div class="form-group">
+              <label for="toppings">Toppings</label>
+              <input type="text" class="form-control" id="toppings" placeholder="Separate, toppings, with, a, commma, and, space">
+            </div>
+            <div class="form-group">
+              <label for="size">Size</label>
+              <select id="size" class="form-control">
+                <option value="1">Small</option>
+                <option value="2">Medium</option>
+                <option value="3">Large</option>
+                <option value="4">Extra Large</option>
+                <option value="5">Kill Me</option>
+              </select>
+            </div>
+          </div>
         </div>
         <button type="submit" class="btn btn-success">Order Pizza</button>
-        <span id="more-pizzas" class="btn btn-warning">Add another pizza</span>
+        <span id="add-pizza" class="btn btn-warning">Add another pizza</span>
       </form>
+
+      <div id="show-total">
+        <ul id="ordered-pizzas">
+
+        </ul>
+        <p>Your total is: $<span id="total"></span>.</p>
+      </div>
     </div>
   </body>
 </html>
