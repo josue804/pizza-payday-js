@@ -63,26 +63,6 @@ $(document).ready(function() {
 
     $("#total").text(total);
     $("#show-total").show();
-  //
-  //
-  //
-  //
-  //
-  //   $("ul#contacts").append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
-  //
-  //
-  //
-  //   $(".contact").last().click(function() {
-  //     $("#show-contact").toggle();
-  //     $("#show-contact h2").text(newContact.firstName + " " + newContact.lastName);
-  //     $(".first-name").text(newContact.firstName);
-  //     $(".last-name").text(newContact.lastName);
-  //
-  //     $("ul#addresses").text("");
-  //     newContact.addresses.forEach(function(address) {
-  //       $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
-  //     });
-  //   });
 
     resetFields();
   });
