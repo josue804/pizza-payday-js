@@ -21,7 +21,7 @@ _Written with JavaScript, mocha, chai, jQuery, with minimal Bootstrap styling._
 ### Legal
 
 
-Copyright (c) 2015 **_Kellen Kolbeck & Vaughn Dice_**
+Copyright (c) 2015 **_Josue Valverde_**
 
 This software is licensed under the MIT license.
 
