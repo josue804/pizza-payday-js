@@ -1,18 +1,18 @@
-# _Tic Tac Toe_
+# _Pizza Company_
 
-##### _Tic Tac Toe, 9/16/2015_
+##### _Pizza Company, 9/16/2015_
 
-#### By _**Kellen Kolbeck, Vaughn Dice, Ryan Heupler, Travis Crampton, Josue Valverde**_
+#### By _**Josue Valverde**_
 
 ## Description
 
-_Allows users to play a game of Tic Tac Toe!_
+_Allows users to create and order a pizza!_
 
 ## Setup
 
 * _Clone repository_
 * _Open spec/spec-runner.html to run specs_
-* _Open tic-tac-toe.html in the browser of your choice_
+* _Open pizza-company.html in the browser of your choice_
 
 ## Technologies Used
 
